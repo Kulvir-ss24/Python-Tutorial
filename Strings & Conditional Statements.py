@@ -91,7 +91,7 @@ print("After Swapping b:",b)
 array=["car","bike","boat","plane"]
 x=len(array) #x is a random variable
 print(x)       #output is 4 because there are 4 elements in array each separated by comma
-#---------------------------------------------------------------------------------
+#-------------MAKE SURE WE COUNT FROM '1' TO FIND THE LENGTH----------------------
 arr=[1,2,3,4,5,6]
 x=len(arr)
 print(x)  #output is 6 because we have to be counted from 1 and in this 'arr' has 6 elements
@@ -109,7 +109,7 @@ print(x)  #output is 6 because we have to be counted from 1 and in this 'arr' ha
 #IT CAN ALSO ACCESS SPECIAL CHARACTERS '_' AND '.' OR THE SPACES IN BETWEEN
 "IN PYTHON INDEXING STARTS FROM 0" #python mei strings ki numbering 0 se shuru hoti hai instead of '1'
 #---------------------------------------------------------------------------------
-"LET'S SEE HOW INDEXING HELPS US?"
+"LET'S SEE HOW INDEXING HELPS US?"  #YANI KONSA INDEX PE VALUE LIE KRTI HAI USKI POSITON KA PTA LGATE HAI YAHA
 #IT HELPS US TO ACCESS CHARACTER POSITION
 str="pythontutorial"
 index_value=str[3]    #count starts from 0
@@ -145,6 +145,59 @@ print(trick) #output is 'drink'
 #-----------SLICING IS WIDELY USED IN MACHINE LEARNING ALGORITHMS TO DEAL WITH COMPLEX INFORMATION------------------------------------
 #---------------------------------------------------------------------------------------
 #-------------------------SLICING IS USED TO ACCESSING PARTS OF A STRING----------------
-
-
-
+#---------------------------------------------------------------------------------------
+str="kulvir tutorial"
+print(str[7:len(str)])   #we used len(str) because we want to access till the last character length so it will be easier as per my view
+#or it can be written as
+print(str[7:14]) #it will print 'tutorial' because it will access from 7th index to 13
+# print(len(str)) #just for checking total length of the string that is '15' including spaces
+#one for example to reach the last index------------------------------------------------
+example="python batch"
+print(example[7: ]) #[7:12] --- here the last index number doesn't count keep in mind while doing indexing [7:len(example)]
+print(example[:6])  #[0:6] --- here the first index number is by default '0' while not listing & last index number doesn't count.
+print(example[0:12]) #it will print 'python batch' because it will access from 0th index to 11
+print(example[0:len(example)]) #it will print the same as 'python batch'
+#make sure last index number doesn't count ever in python
+#---------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------------
+#-------------------------NEGATIVE INDEXING IN SLICING----------------------------------
+#-----------------------------THESE ARE USED WHEN WE DON'T KNOW THE ACTUAL LENGTH OF THE STRING OR AN IDEA------------------------
+"NEGATIVE INDEXING CAN BE USED FOR BACKWARD COUNTING AS WE ARE DOING FORWARD INDEXING IN POSITIVE INDEXING CHECK ABOVE--------"
+#example [Apple] but index count will be [-5,-4,-3,-2,-1]
+apple="Apple"
+print(apple[-5:]) #it will print 'Apple' because it will access from -5
+#as per the rule last index '-1' doesn't be counted [-5:-2]#example
+print(apple[-5:-3]) #it will print 'ap' because last -3 index doesn't count
+print(apple[ ::-3]) #it will print 'ppA' because it can count last digit 'p' as -3 index because of [::]
+#reverse indexing is used to access the string from right to left
+#--------------------------------------------------------------------------------------
+"AND TO PRINT PRINT THE REVERSE STRING IN A SEQUENCE"
+print(apple[ ::-1]) #it will print 'elppa' because it will access from -1 to -6 
+"it is compulsory to put :: before -1 or last value to get the reverse string"
+#---------------------------------------------------------------------------------------
+app="valorant"
+xyz=app[-9:len(app)]  
+print(xyz)   #it will print 'valorant'
+abcd=len(xyz)  
+print(abcd)  #the output is 8 
+#for reverse of str
+print(app[len(xyz)::-1]) #it will print 'tnarolav' either it can be written as 'print(app[ ::-1])', the value is same as 'tnarolav'
+#str="apple"
+#str[-5:-1] is "appl". Here 'e' will not count because of the last element in the indexing
+#-----------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+#-------STRINGSSSSSSSSSSSSSSSSSSSS OFFFFFFFFFFFF FUNCTIONSSSSSSSSSSSSSSSSSSSSS------------
+#-------STRINGSSSSSSSSSSSSSSSSSSSS OFFFFFFFFFFFF FUNCTIONSSSSSSSSSSSSSSSSSSSSS------------
+#-------STRINGSSSSSSSSSSSSSSSSSSSS OFFFFFFFFFFFF FUNCTIONSSSSSSSSSSSSSSSSSSSSS------------
+#-------STRINGSSSSSSSSSSSSSSSSSSSS OFFFFFFFFFFFF FUNCTIONSSSSSSSSSSSSSSSSSSSSS------------
+#-------STRINGSSSSSSSSSSSSSSSSSSSS OFFFFFFFFFFFF FUNCTIONSSSSSSSSSSSSSSSSSSSSS------------
+#-------STRINGSSSSSSSSSSSSSSSSSSSS OFFFFFFFFFFFF FUNCTIONSSSSSSSSSSSSSSSSSSSSS------------
+# ------------------SERIES CONTINUES------------------------------------------------------
+#-----------------------------------------------------------------------------------------
+#-------------------------STRINGS WITH FUCTIONS-------------------------------------------
+#-----------------------------------------------------------------------------------------
