@@ -14,11 +14,15 @@ print("what is the datatype: ", type(c))  #for checking datatype of the output
 #--------------------------------------------------------------------------------
 #--------------------FIND LENGTH OF A STRING-------------------------------------
 #--------------------------------------------------------------------------------
+#------------IN PYTHON WE COUNT THE VALUE OF STRING THROUGH '1'------------------
+#------------IN PYTHON WE COUNT THE VALUE OF STRING THROUGH '1'------------------
 #Length - The length of a string is the number of characters it contains.
 len("kulvir")           #IT STARTS COUNTING FROM 1 BECAUSE k,u,l,v,i,r ARE 6 CHARACTERS
 print("The length of the string is: ", len("kulvir")) #OUTPUT IS 6
 #--------------------------------------------------------------------------------
-#------------------------FIND LENGTH OF A STRING---------------------------------
+#------------------------FIND LENGTH OF A STRING?---------------------------------
+#------------IN PYTHON WE COUNT THE VALUE OF STRING THROUGH '1'------------------
+#------------IN PYTHON WE COUNT THE VALUE OF STRING THROUGH '1'------------------
 str1="My name is kulvir"
 length=len(str1)
 print("The length of the string is: ", length) #OUTPUT IS 17
@@ -81,6 +85,66 @@ print("After Swapping a:",a)
 print("After Swapping b:",b)
 #---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
+#------------ONE MORE PROGRAM TO PRINT LENGTH OF AN ARRAY [imp question]----------
+#---------------------------------------------------------------------------------
+"taking array as an variable"
+array=["car","bike","boat","plane"]
+x=len(array) #x is a random variable
+print(x)       #output is 4 because there are 4 elements in array each separated by comma
+#---------------------------------------------------------------------------------
+arr=[1,2,3,4,5,6]
+x=len(arr)
+print(x)  #output is 6 because we have to be counted from 1 and in this 'arr' has 6 elements
+#---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
 #-------------------------SO LET'S MOVE ON FURTHER--------------------------------
 #---------------------------------------------------------------------------------
+#------------------WHAT IS INDEXING?-----INDEXING---------------------------------
+#----------------------STARTS FROM 0----------------------------------------------
+#----------------------STARTS FROM 0----------------------------------------------
+#----------------------STARTS FROM 0----------------------------------------------
+#----------------------STARTS FROM 0----------------------------------------------
+#------------------------------INDEXING--WE FIND ONLY POSITIONS-------------------
+#INDEXING IS USED TO ACCESS THE STRING CHARACTERS
+#IT CAN ALSO ACCESS SPECIAL CHARACTERS '_' AND '.' OR THE SPACES IN BETWEEN
+"IN PYTHON INDEXING STARTS FROM 0" #python mei strings ki numbering 0 se shuru hoti hai instead of '1'
+#---------------------------------------------------------------------------------
+"LET'S SEE HOW INDEXING HELPS US?"
+#IT HELPS US TO ACCESS CHARACTER POSITION
+str="pythontutorial"
+index_value=str[3]    #count starts from 0
+print(index_value) #output is 'h' because at 3rd position there is 'h'
+#let's find character repeated here
+print(str.count('t'))  #Always use quotes if finding count for a string/letter
+#output is 3 because letter 't' is repeated 3 times in the string
+#---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
+#----PROGRAM OF ARRAY - IT EVENTUALLY COMES IN MY MIND SO I AM WRITING IT HERE----
+"HOW TO FIND THE REPETATION OF A CHARACTER OR NUMBER"
+arr[3]=[1,2,3,4]
+print(arr.count(3)) #Repeated no of '3' in array it is '1' times repeated
+#output 1
+#---------------------------------------------------------------------------------
+string=[1,2,3,4,5,6,7,8]
+#count starts from 0
+number=string[3]   #here we are accessing position number '3' in the index of an array
+print(number) #output is 4 because at position '3' there is 4
+#---------------------------------------------------------------------------------
+"LET'S DO IT WITH ARRAY"
+arrlen=['list','orange','juice','drink']
+trick=arrlen[3]  #it will take 'drink' as an index value
+print(trick) #output is 'drink' 
+#because at position '3' there is 'drink'
+#---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
+#---------------------------------------------------------------------------------
+#-------------------------LET'S MOVE ON FURTHER-----------------------------------
+#---------------------------------------------------------------------------------
+#------------------WHAT IS SLICING?-----SLICING-----------------------------------
+#---------------------------------------------------------------------------------
+#-----------SLICING IS WIDELY USED IN MACHINE LEARNING ALGORITHMS TO DEAL WITH COMPLEX INFORMATION------------------------------------
+#---------------------------------------------------------------------------------------
+#-------------------------SLICING IS USED TO ACCESSING PARTS OF A STRING----------------
+
+
+
