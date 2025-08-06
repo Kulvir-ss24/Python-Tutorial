@@ -10,9 +10,30 @@ c="kulvir" + "singh"    #make sure identifiers must be defined before the string
 print("The string we get after concatenation: ", c)
 print("what is the datatype: ", type(c))  #for checking datatype of the output
 #--------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
+#--------------------------------------------------------------------------------
+#--------------------FIND LENGTH OF A STRING-------------------------------------
+#--------------------------------------------------------------------------------
 #Length - The length of a string is the number of characters it contains.
 len("kulvir")           #IT STARTS COUNTING FROM 1 BECAUSE k,u,l,v,i,r ARE 6 CHARACTERS
 print("The length of the string is: ", len("kulvir")) #OUTPUT IS 6
+#--------------------------------------------------------------------------------
+#------------------------FIND LENGTH OF A STRING---------------------------------
+str1="My name is kulvir"
+length=len(str1)
+print("The length of the string is: ", length) #OUTPUT IS 17
+#Because spaces will also be counted as you can seen in 'str1'
+str2="My name is Alex"
+length=len(str2)
+print("The total length is: ", length) #OUTPUT IS 15
+#--------------------------------------------------------------------------------
+#LET'S HAVE SOME TWIST
+final_str=str1 + " " + str2   #SPACING IS ADDED BETWEEN THE TWO STRINGS 
+#SPACE WILL ALSO BE COUNT AS LENGTH SO MAKE SURE IF YOU WANT TO CALCULATE FULL LENGTH THEN DON'T ADD ANY SPACE BETWEEN THE STRINGS.
+print(final_str)      #My name is kulvir My name is Alex
+print(len(final_str))  #33
+#-----HERE'S WE HAVE SEEN HOW TO CONCATENATE & FIND LENGTH OF A STRING-----------
+#--------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------
 #--------------------------------------------------------------------------------
@@ -22,6 +43,7 @@ str="My name is kulvir" #widely these kind of double quotes were used mostly
 str1='My age is 21'
 str3="""Teaching Python"""
 print(str+" "+str1+" "+str3)  #it will print all str,str1,str3 together [called as string concatenation]
+print(str+"\n"+str2+"\n"+str3)  #SEE HOW WE USED \n FOR NEW LINE THAT IS ESCAPE SEQUENCE CHARACTER
 #---------------------------------------------------------------------------------
 #---------------------------------------------------------------------------------
 #---------------------------WHAT IS USE OF STRING?--------------------------------
