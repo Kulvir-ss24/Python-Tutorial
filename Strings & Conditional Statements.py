@@ -171,6 +171,8 @@ print(apple[-5:]) #it will print 'Apple' because it will access from -5
 print(apple[-5:-3]) #it will print 'ap' because last -3 index doesn't count
 print(apple[ ::-3]) #it will print 'ppA' because it can count last digit 'p' as -3 index because of [::]
 #reverse indexing is used to access the string from right to left
+"IF you want help to learn concept of negative indexing in reverse order conact me - kulvirsingh.s2411@gmail.com"
+"example [ :: -2] this works actually all you can ask there"
 #--------------------------------------------------------------------------------------
 "AND TO PRINT PRINT THE REVERSE STRING IN A SEQUENCE"
 print(apple[ ::-1]) #it will print 'elppa' because it will access from -1 to -6 
