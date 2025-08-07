@@ -498,7 +498,7 @@ print("and operator:", val1 and val2)  # Output: True (both values are True)
 print("or operator:", val1 or val2)    # Output: True (at least one value is True)
 
 #we can use expressions here given below
-print("or operator:", (val1 or val2) and (val1!=val2))  # Output: True (at least one value is True)
+print("and operator:", (val1 or val2) and (val1!=val2))  # Output: True (at least one value is True)
 #make sure use brackets or parenthesis to avoid confusion in complex expressions
 #------------------------------------------------------------------------------------------------------
 val3=True
